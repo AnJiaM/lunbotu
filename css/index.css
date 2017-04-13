@@ -1,0 +1,85 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 600px;
+    height: 366px;
+    margin: 0 auto;
+    position: relative;
+}
+/*所有的li标签去掉前面的小圆点*/
+.banner ul li {
+    list-style: none;
+}
+/*图片的样式*/
+
+.banner .img {
+    width: 100%;
+    height: 100%;
+}
+.banner .img ul {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.banner .img ul li {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.banner .img .img-pic .img-one {
+    display: block;
+}
+/*箭头样式*/
+.arrow{
+    display:none;
+}
+.banner>.arrow>.arrow-left,.arrow-right {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+    /*left:0;*/
+}
+
+.banner>.arrow>.arrow-right {
+    right:0;
+}
+/*圆点样式*/
+.banner .num {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 38px;
+    left:50%;
+    margin-left: -74px;
+}
+.banner .num  li {
+    float: left;
+    height: 15px;
+    width: 15px;
+    /*border: 1px solid red;*/
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    margin: 0 10px;
+    cursor:pointer;
+    border-radius:50%;
+}
+.banner .num .num-one{
+    background-color:red;
+} 
